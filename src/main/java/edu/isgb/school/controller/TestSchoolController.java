@@ -1,4 +1,4 @@
-package edu.isgb.school.test;
+package edu.isgb.school.controller;
 
 import edu.isgb.school.entities.Course;
 import edu.isgb.school.entities.Instructor;
@@ -9,7 +9,6 @@ import edu.isgb.school.services.SchoolService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
